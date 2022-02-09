@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadDBGException", "BadDBGException\BadDBGException.vcxproj", "{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestAppl", "TestAppl\TestAppl.vcxproj", "{427606F3-DE36-49A1-8615-32F5CEC3C791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM.Build.0 = Debug|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x64.ActiveCfg = Debug|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x64.Build.0 = Debug|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x64.Deploy.0 = Debug|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x86.Build.0 = Debug|Win32
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Debug|x86.Deploy.0 = Debug|Win32
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM.ActiveCfg = Release|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM.Build.0 = Release|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM.Deploy.0 = Release|ARM
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM64.Build.0 = Release|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|ARM64.Deploy.0 = Release|ARM64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x64.ActiveCfg = Release|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x64.Build.0 = Release|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x64.Deploy.0 = Release|x64
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x86.ActiveCfg = Release|Win32
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x86.Build.0 = Release|Win32
+		{482CC8AE-399E-4D34-8966-7A37E0A2FA3B}.Release|x86.Deploy.0 = Release|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|ARM.ActiveCfg = Debug|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|x64.ActiveCfg = Debug|x64
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|x64.Build.0 = Debug|x64
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|x86.ActiveCfg = Debug|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Debug|x86.Build.0 = Debug|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|ARM.ActiveCfg = Release|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|ARM64.ActiveCfg = Release|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|x64.ActiveCfg = Release|x64
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|x64.Build.0 = Release|x64
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|x86.ActiveCfg = Release|Win32
+		{427606F3-DE36-49A1-8615-32F5CEC3C791}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D1DBB8F-70ED-48BC-B3E5-EC83392DF949}
+	EndGlobalSection
+EndGlobal
